@@ -4,6 +4,7 @@ import { store } from "@/redux/store";
 import React from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
+import Image from "next/image";
 
 
 export default function ShopLayoutContext({ children }: Readonly<{ children: React.ReactNode }>) {
