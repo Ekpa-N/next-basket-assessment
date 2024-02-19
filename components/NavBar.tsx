@@ -30,8 +30,24 @@ export default function () {
             </Modal>
             <div className="h-[58px] w-full lg:flex bg-[#23856D] hidden justify-between px-[130px]">
                 <h2 className="flex gap-[5px] items-center">
-                    <Image alt="" src={"../images/home-page-icons/phone.svg"} height={16} width={16}  />
+                    <Image alt="" src={"../images/home-page-icons/phone.svg"} height={16} width={16} />
                     <span className="text-white">{`(225) 555-0118`}</span>
+                </h2>
+                <h2 className="flex gap-[5px] items-center">
+                    <Image alt="" src={"../images/home-page-icons/mail.svg"} height={16} width={16} />
+                    <span className="text-white">{`michelle.rivera@example.com`}</span>
+                </h2>
+                <h2 className="flex gap-[5px] items-center">
+                    <span className="text-white font-[700]">{`Follow Us  and get a chance to win 80% off`}</span>
+                </h2>
+                <h2 className="flex gap-[10px] items-center">
+                    <span className="text-white font-[700]">Follow Us :</span>
+                    <h2 className="flex gap-[7px]">
+                    <Image alt="" src={"../images/home-page-icons/instagram-white.svg"} height={16} width={16}  />
+                    <Image alt="" src={"../images/home-page-icons/youtube-white.svg"} height={16} width={16}  />
+                    <Image alt="" src={"../images/home-page-icons/facebook-white.svg"} height={16} width={16}  />
+                    <Image alt="" src={"../images/home-page-icons/twitter-white.svg"} height={16} width={16}  />
+                    </h2>
                 </h2>
             </div>
             <div className="flex borde gap-[40px] lg:gap-[80px] bg-[white] flex-col lg:flex-row lg:items-center lg:justify-between min-h-[58px] px-[130px]">
