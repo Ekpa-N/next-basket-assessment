@@ -28,7 +28,7 @@ export default function () {
             >
                 {open.cart ? <Cart products={cart} total={total} /> : open.wishlist ? <Wishlist products={wishlist} /> : <></>}
             </Modal>
-            <div className="h-[58px] w-full lg:flex bg-[#23856D] hidden justify-between px-[130px]">
+            {/* <div className="h-[58px] w-full lg:flex bg-[#23856D] hidden justify-between px-[130px]">
                 <h2 className="flex gap-[5px] items-center">
                     <Image alt="" src={"../images/home-page-icons/phone.svg"} height={16} width={16} />
                     <span className="text-white">{`(225) 555-0118`}</span>
@@ -49,7 +49,7 @@ export default function () {
                     <Image alt="" src={"../images/home-page-icons/twitter-white.svg"} height={16} width={16}  />
                     </h2>
                 </h2>
-            </div>
+            </div> */}
             <div className="flex borde gap-[40px] lg:gap-[80px] bg-[white] flex-col lg:flex-row lg:items-center lg:justify-between min-h-[58px] px-[130px]">
                 <div className="flex items-center justify-between lg:w-fit borde h-[58px] px-[10px] lg:px-[0]">
                     <Link href={"/"}>
