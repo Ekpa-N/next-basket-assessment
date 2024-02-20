@@ -28,7 +28,7 @@ export default function () {
             >
                 {open.cart ? <Cart products={cart} total={total} /> : open.wishlist ? <Wishlist products={wishlist} /> : <></>}
             </Modal>
-            <div className="h-[58px] w-full lg:flex bg-[#23856D] hidden justify-between px-[130px]">
+            <div className="h-[58px] w-full md:flex bg-[#23856D] hidden justify-between px-[130px]">
                 <h2 className="flex gap-[5px] items-center">
                     <Image alt="" src={"../images/home-page-icons/phone.svg"} height={16} width={16} />
                     <span className="text-white">{`(225) 555-0118`}</span>
